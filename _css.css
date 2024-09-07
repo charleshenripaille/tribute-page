@@ -1,0 +1,128 @@
+body, html{
+    height: 100%;
+    font-family:  "Lato", sans-serif;
+}
+
+/* Presentation page Title*/
+h1, h2{
+color:  #777;
+position: relative;
+text-align: center
+}
+
+h1 {
+    left: 60%;
+    top: 30%;
+    width: 40%;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+h2{
+    left: center;
+    top: 60%;
+    width: 60%;
+    color: floralwhite;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* fixed background image set; try to make it responsive one day
+*/
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.first{
+   
+    height: 150vh;
+    background-position: 0% 20%;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image3.jpg");
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image3.jpg");
+    background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image3.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image3.jpg");
+}
+.second{
+    height: 50vh;
+    /*border-style: solid;
+    border-color: red;*/
+    position: relative;
+    background-position: center;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image2.jpeg");
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image2.jpeg");
+    background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image2.jpeg");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image2.jpeg");
+}
+
+.third{
+    height: 55vh;
+    /*border-style: solid;
+    border-color: red;*/
+    position: relative;
+    background-position: center;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image5.jpg");
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image5.jpg");
+    background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image5.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("pictures/image5.jpg");
+}
+
+/*Content*/
+    
+.box{
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:10px 80px;
+    text-align: justify;
+    /*border-style: solid;
+    border-color: red;*/
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 50px "Lato", sans-serif;
+    color: #111;
+    text-align:center;
+    
+   
+}
+p, li{
+    margin: auto;
+    font-size:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+   
+}
+
+ul{
+    columns: 2;
+}
+li{
+     list-style:none;
+     padding: 0.6em; 
+}
+
+/*last element*/
+
+.bottom{
+    height: 50vh;
+    padding:0px 80px;
+}
+a{
+    text-decoration: none;
+    vertical-align: center;
+}
+.bottom:hover, .bottom:hover h3{
+    color: white;
+    background-color: #777;
+}
+.bottom h3{
+    line-height: 50vh;
+    margin: 0px; 
+}
